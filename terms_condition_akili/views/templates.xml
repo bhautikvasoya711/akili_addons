@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>    
+    <template id="payment_inherited" inherit_id="website_sale.payment">
+        <xpath expr="//div[@id='payment_method']" position="before">
+            <div class="col-xs-12">
+                <div t-if="res_company.enable_feature" >
+                     <label>
+                        <input type="checkbox" checked="checked" id="checkbox_cgv" class="checkbox_cgv" />
+                        I agree to the terms &amp; conditions
+                    </label>
+                    <div class="overflowTest" t-field="res_company.website_description" />
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
