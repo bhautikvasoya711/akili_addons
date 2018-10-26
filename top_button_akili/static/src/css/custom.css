@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-  }
+}
 
   #myBtn {
     display: none;
@@ -25,8 +25,8 @@ body {
   }
   
   #toTop:active,.wp-theme-1 #toTop:focus {
-  outline: none;
- }
+    outline: none;
+  }
 
 #myBtn:before {
   font-family: 'FontAwesome';
