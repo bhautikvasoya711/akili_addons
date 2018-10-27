@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <template id="assets_frontend" name="Search" inherit_id="website.assets_frontend">
-        <xpath expr="." position="inside">
-            <link rel="stylesheet" type="text/less" href='/enlarged_search_area_akili/static/src/css/search_area.css'/>
-        </xpath>
-    </template>
-</odoo>
